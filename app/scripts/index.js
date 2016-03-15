@@ -4,6 +4,6 @@ var ReactDOM = require('react-dom');
 var TodoApp = require('./components/todo.jsx');
 
 ReactDOM.render(
-  <TodoApp />,
+  React.createElement(TodoApp),
   document.getElementById('app')
 );
